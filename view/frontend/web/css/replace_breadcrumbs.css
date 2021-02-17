@@ -1,34 +1,52 @@
-.breadcrumbs a{
-    font-family: "Nunito", sans-serif;
-    color: #858585;
-    font-size: 14px;
+.replacebreadcrumbs a.newcrumbs{
+    color: #b0b0b0 !important;
+    font-size: 1.1rem;
     font-weight: 400;
     text-align: left;
+    line-height: 3.5;
+}
+.replacebreadcrumbs span.prodcrumbs{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    line-height: 3.5;
 }
 .breadcrumbs a:hover {
     text-decoration: none;
-    color:#ffa100;
 }
 .breadcrumbs span {
-    font-family: "Nunito", sans-serif;
-    color: #858585;
-    font-size: 14px;
+    color: #b0b0b0;
+    font-size: 1.1rem;
     font-weight: 600;
     text-align: left;
+    line-height: 3.5;
 }
 .replacebreadcrumbs {
     display: none;
 }
 span.breadcrumbsseparator {
-    margin: 0px 6px;
-    vertical-align: middle;
-    font-family: FontAwesome;
-    color: #858585;
-    font-size: 14px;
+    margin: 0px 3px;
+    color: #666 !important;
+    font-size: 1.1rem;
     font-weight: 400;
     text-align: left;
     padding-top: 3px;
+    line-height: 3.5;
 }
 .breadcrumbsseparator:before {
-    content: "\f0da";
+    content: "\e608";
+    font-family: 'luma-icons';
+    color: #666 !important;
+    font-size: 1rem;
+    line-height: 3.6;
+}
+html.mobile {
+    display: block;
+}
+@media screen and (max-width: 770px) {
+
+.replacebreadcrumbs{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 }

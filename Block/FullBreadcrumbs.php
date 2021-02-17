@@ -89,7 +89,7 @@ class FullBreadcrumbs extends \Magento\Framework\View\Element\Template
         $categories = '';
         foreach ($filtered_colection as $categoriesData) {
             if (!in_array($categoriesData->getId(), $badCategories)) {
-                $categories .= '<a href="' . $categoriesData->getUrl() . '">';
+                $categories .= '<a class="newcrumbs" href="' . $categoriesData->getUrl() . '">';
                 $categories .= $categoriesData->getData('name') . '</a>' . $separator;
             }
         }
@@ -109,8 +109,8 @@ class FullBreadcrumbs extends \Magento\Framework\View\Element\Template
 
             $categories = $this->getCategories($filtered_colection, $badCategories);
 
-            $home_url = '<a href="' . $this->_storeManager->getStore()->getBaseUrl() . '">Home</a>';
-            return $home_url . $separator . $categories . '<span>' . $product->getName() . '</span>';
+            $home_url = '<a class="newcrumbs" href="' . $this->_storeManager->getStore()->getBaseUrl() . '">'.__('Home').'</a>';
+            return $home_url . $separator . $categories . '<span class="prodcrumbs">' . $product->getName() . '</span>';
         }
     }
 }
