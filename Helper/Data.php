@@ -3,7 +3,7 @@
  * Copyright © EAdesign by Eco Active S.R.L.,All rights reserved.
  * See LICENSE for license details.
  */
-namespace Eadesigndev\FullBreadcrumbs\Helper;
+namespace Rolv\FullBreadcrumbs\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;

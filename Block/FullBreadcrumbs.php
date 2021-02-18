@@ -3,14 +3,14 @@
  * Copyright © EAdesign by Eco Active S.R.L.,All rights reserved.
  * See LICENSE for license details.
  */
-namespace Eadesigndev\FullBreadcrumbs\Block;
+namespace Rolv\FullBreadcrumbs\Block;
 
 use Magento\Catalog\Helper\Data;
 use Magento\Framework\View\Element\Template\Context;
 use Magento\Catalog\Model\ResourceModel\Category\CollectionFactory;
 use Magento\Framework\Registry;
 use Magento\Framework\Api\AttributeValue;
-use Eadesigndev\FullBreadcrumbs\Helper\Data as BreadcrumbsData;
+use Rolv\FullBreadcrumbs\Helper\Data as BreadcrumbsData;
 
 class FullBreadcrumbs extends \Magento\Framework\View\Element\Template
 {

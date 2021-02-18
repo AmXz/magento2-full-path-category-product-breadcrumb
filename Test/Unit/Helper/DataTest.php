@@ -6,9 +6,9 @@
  * Time: 1:29 PM
  */
 
-namespace Eadesigndev\FullBreadcrumbs\Test\Unit\Helper;
+namespace Rolv\FullBreadcrumbs\Test\Unit\Helper;
 
-use Eadesigndev\FullBreadcrumbs\Helper\Data;
+use Rolv\FullBreadcrumbs\Helper\Data;
 use PHPUnit\Framework\TestCase;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\App\Helper\Context;

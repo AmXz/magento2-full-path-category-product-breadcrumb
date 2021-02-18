@@ -6,10 +6,10 @@
  * Time: 3:09 PM
  */
 
-namespace Eadesigndev\FullBreadcrumbs\Test\Unit\Block;
+namespace Rolv\FullBreadcrumbs\Test\Unit\Block;
 
-use Eadesigndev\FullBreadcrumbs\Block\FullBreadcrumbs;
-use Eadesigndev\FullBreadcrumbs\Helper\Data;
+use Rolv\FullBreadcrumbs\Block\FullBreadcrumbs;
+use Rolv\FullBreadcrumbs\Helper\Data;
 use PHPUnit\Framework\TestCase;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\App\Helper\Context;

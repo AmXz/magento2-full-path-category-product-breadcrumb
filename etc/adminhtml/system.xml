@@ -6,7 +6,7 @@
                  showInStore="1">
             <label>Full Breadcrumbs</label>
             <tab>eadesign_extensions</tab>
-            <resource>Eadesigndev_FullBreadcrumbs::fullbreadcrumbs_configuration</resource>
+            <resource>Rolv_FullBreadcrumbs::fullbreadcrumbs_configuration</resource>
             <group id="fullbreadcrumbs" translate="label" sortOrder="10" type="text" showInDefault="1" showInWebsite="1"
                    showInStore="1">
                 <label>Full Breadcrumbs</label>
