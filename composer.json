@@ -1,5 +1,5 @@
 {
-    "name": "amxz/module-fullbreadcrumbs",
+    "name": "rolv/module-fullbreadcrumbs",
     "description": "Full breadcrumbs for product page",
     "version": "1.0.5",
     "type": "magento2-module",
