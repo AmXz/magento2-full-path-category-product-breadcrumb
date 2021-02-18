@@ -9,6 +9,10 @@
             "name": "Mihai Ardeleanu",
             "email": "mihai.ardeleanu@eadesign.ro"
         }
+        {
+            "name": "Cezar Dumitrescu",
+            "email": "cezar.andrei02@gmail.com"
+        }
     ],
 
     "autoload": {
