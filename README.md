@@ -1,6 +1,6 @@
 
 # Magento 2 Full path categories product breadcrumb
-[![](https://img.shields.io/packagist/v/rolv/module-fullbreadcrumbs.svg)](https://packagist.org/packages/rolv/module-fullbreadcrumbs) [![](https://img.shields.io/packagist/dt/rolv/module-fullbreadcrumbs.svg)](https://packagist.org/packages/rolv/module-fullbreadcrumbs)
+[![](https://img.shields.io/packagist/v/rolv/module-fullbreadcrumbs#1.0.5.svg)](https://packagist.org/packages/rolv/module-fullbreadcrumbs#1.0.5) [![](https://img.shields.io/packagist/dt/rolv/module-fullbreadcrumbs#1.0.5.svg)](https://packagist.org/packages/rolv/module-fullbreadcrumbs#1.0.5)
 
 
 Full path categories product breadcrumb for Magento 2 was created to include breadcrumbs with product categories in product view page, when product is acccesed from product url.
